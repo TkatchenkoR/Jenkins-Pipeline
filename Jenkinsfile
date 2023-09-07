@@ -11,6 +11,7 @@ pipeline {
             steps {
                 echo "Running unit tests with JUnit ..."
                 echo "Running integration tests ..."
+                echo "Making change example ..."
             }
             post{
                 always{
